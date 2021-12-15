@@ -3,7 +3,7 @@ import React from 'react';
 export const App = ({questions, answers, handleModifyAnswerVotes}) => (
     <div>
         <h1>
-            Q&A Tool
+            Q&A Tool ssr!
         </h1>
         {questions.map(({questionId, content}) => (
         <div key={questionId}>
